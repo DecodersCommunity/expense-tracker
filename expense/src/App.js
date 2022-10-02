@@ -1,5 +1,5 @@
 import "./App.css";
-import NewExpense from "./components/NewExpense";
+import NewExpense from "./NewExpense";
 
 import {
   BrowserRouter as Router,
