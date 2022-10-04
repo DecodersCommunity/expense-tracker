@@ -3,3 +3,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.btnhome{
+
+  min-width:50px;
+  max-width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin: 3px;
+}
+
+
+.buttons{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:5%;
+}
+.btn{
+  display: flex;
+  align-items: center;
+}
+
+#box{
+  display: grid !important;
+grid-template-columns: 1fr 1fr 1fr !important;
+background: #e9ec84;
+}
+#box-1{
+  color: #19201e;
+background: #2187e1;
+  display: grid !important;
+grid-template-columns: 1fr 1fr 1fr !important;
+}
+
+.item h3{
+  font-size: 1.3rem;
+}
+.item{
+
+  display: flex;
+  justify-content: center;
+  word-break: break-all;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
